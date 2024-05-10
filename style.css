@@ -1,0 +1,22 @@
+:root {
+  --text: #deeefb;
+  --background: #01070b;
+  --primary: #8abbf0;
+  --secondary: #cb4e3b;
+  --accent: #dae327;
+}
+
+body {
+  background: var(--background) !important;
+  color: var(--text) !important;
+  font-family: "Karla";
+}
+.bg-yellow-600 {
+  background-color: var(--accent) !important;
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
